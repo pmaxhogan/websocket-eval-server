@@ -1,0 +1,28 @@
+dependencies:
+  ws: 4.0.0
+packages:
+  /async-limiter/1.0.0:
+    dev: false
+    resolution:
+      integrity: sha512-jp/uFnooOiO+L211eZOoSyzpOITMXx1rBITauYykG3BRYPu8h0UcxsPNB04RR5vo4Tyz3+ay17tR6JVf9qzYWg==
+  /safe-buffer/5.1.1:
+    dev: false
+    resolution:
+      integrity: sha512-kKvNJn6Mm93gAczWVJg7wH+wGYWNrDHdWvpUmHyEsgCtIwwo3bqPtV4tR5tuPaUhTOo/kvhVwd8XwwOllGYkbg==
+  /ultron/1.1.1:
+    dev: false
+    resolution:
+      integrity: sha512-UIEXBNeYmKptWH6z8ZnqTeS8fV74zG0/eRU9VGkpzz+LIJNs8W/zM/L+7ctCkRrgbNnnR0xxw4bKOr0cW0N0Og==
+  /ws/4.0.0:
+    dependencies:
+      async-limiter: 1.0.0
+      safe-buffer: 5.1.1
+      ultron: 1.1.1
+    dev: false
+    resolution:
+      integrity: sha512-QYslsH44bH8O7/W2815u5DpnCpXWpEK44FmaHffNwgJI4JMaSZONgPBTOfrxJ29mXKbXak+LsJ2uAkDTYq2ptQ==
+registry: 'https://registry.npmjs.org/'
+shrinkwrapMinorVersion: 4
+shrinkwrapVersion: 3
+specifiers:
+  ws: ^4.0.0

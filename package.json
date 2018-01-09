@@ -1,0 +1,22 @@
+{
+  "name": "websocket-eval-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/programmer5000-com/websocket-eval-server.git"
+  },
+  "author": "programmer5000-com",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/programmer5000-com/websocket-eval-server/issues"
+  },
+  "homepage": "https://github.com/programmer5000-com/websocket-eval-server#readme",
+  "dependencies": {
+    "ws": "^4.0.0"
+  }
+}
